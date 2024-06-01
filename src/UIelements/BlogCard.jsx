@@ -11,9 +11,9 @@ const BlogCard = ({ title, description, keywords, image }) => {
         {description}
       </p>
       <div className="flex gap-1">
-        {keywords.map((keyword) => {
+        {keywords.map((keyword , index) => {
           return (
-            <div className="bg-[#F8F8F8] py-1 px-[10px] rounded text-[13px] font-medium font-serif">
+            <div key={index} className="bg-[#F8F8F8] py-1 px-[10px] rounded text-[13px] font-medium font-serif">
               {keyword}
             </div>
           );

@@ -18,9 +18,10 @@ const Blog = () => {
         </div>
       </div>
       <div className="flex gap-8">
-        {BlogData.map((blog) => {
+        {BlogData.map((blog , index) => {
           return (
             <BlogCard
+            key={index}
             image={blog.Image}
               title={blog.title}
               description={blog.description}
