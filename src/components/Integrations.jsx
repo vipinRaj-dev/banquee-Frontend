@@ -40,7 +40,7 @@ const Integrations = () => {
                 "Fully API interface",
                 "Payments worldwide",
               ].map((item, index) => (
-                <li key={index} className="flex items-center gap-4">
+                <li key={index} className="flex items-center font-medium gap-4">
                   <img src="/listTick.png" alt={item} />
                   {item}
                 </li>

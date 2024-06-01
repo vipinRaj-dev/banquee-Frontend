@@ -5,7 +5,7 @@ import { ChevronDown } from "lucide-react";
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex justify-around font-serif font-normal p-6">
+      <nav className="flex justify-around items-center font-serif font-normal p-6">
         <div>
           <h1 className="font-sans font-bold text-4xl text-custom-green">
             banquee.
@@ -23,7 +23,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="flex gap-8">
+        <div className="flex gap-8 h-[39px]">
           <Button name="Login" variant="secondary" />
           <Button name="Open Account" variant="primary" />
         </div>

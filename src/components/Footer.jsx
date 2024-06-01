@@ -52,11 +52,11 @@ const Footer = () => {
           </div>
         </div>
         <hr className="mb-4 mt-20" />
-        <div className="flex justify-between text-[14px] leading-[22.4px] font-medium">
+        <div className="flex justify-between text-[14px] leading-[22.4px] font-medium opacity-50">
           <p>
             © Made by <span className="text-custom-green">Pawel Gola</span> - Powered by <span className="text-custom-green">Webflow</span>
           </p>
-          <p>Impressum Datenschutz</p>
+          <p > Impressum Datenschutz</p>
         </div>
       </div>
     </div>

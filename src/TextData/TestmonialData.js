@@ -22,7 +22,7 @@ export const testimonialsData = [
       image: "/rating.png",
       title: "At lectus urna duis convallis tellus",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.In nibh mauris cursus mattis. At lectus urna duis convallis convallis tellus. Enim blandit volutpat maecenas volutpat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit,At lectus urna duis convallis convallis tellus. Enim blandit volutpat maecenas volutpat sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.In nibh mauris cursus mattis. At lectus urna duis convallis convallis tellus. Enim blandit volutpat maecenas volutpat.",
 
       author: "Jenny Wilson",
       role: "Nursing Assistant",

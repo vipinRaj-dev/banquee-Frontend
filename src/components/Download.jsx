@@ -67,14 +67,14 @@ const Download = () => {
               <img src="/phone.png" alt="" />
               <div>
                 <p> +49 176 123 456</p>
-                <p>Support Hotline</p>
+                <p className="opacity-50">Support Hotline</p>
               </div>
             </div>
-            <div className="flex gap-6">
+            <div className="flex gap-6 pb-7">
               <img src="/mailicon.png" alt="" />
               <div>
                 <p> help@banquee.com</p>
-                <p>Support Email</p>
+                <p className="opacity-50">Support Email</p>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -108,7 +108,7 @@ const Download = () => {
           <hr className="my-8 bg-[#E8E8E8]" />
           <div className="flex justify-between">
             <div>
-              <h1 className="mb-2 text-[20px] leading-[24px] font-medium">
+              <h1 className="mb-3 text-[20px] leading-[24px] font-medium">
                 How does Banko premium works?
               </h1>
               <p className="font-serif font-medium opacity-50 leading-[25.6px] text-[16px]">
